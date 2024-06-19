@@ -1,12 +1,16 @@
 [tool.poetry]
-name = "jax"
+name = "jax_practice"
 version = "0.1.0"
 description = ""
 authors = ["prasanthyss <prasanthyss1130@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.4"
+jax = "^0.4.30"
 
 
 [build-system]
