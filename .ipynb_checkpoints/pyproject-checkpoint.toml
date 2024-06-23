@@ -1,18 +1,14 @@
 [tool.poetry]
-name = "jax-tutorials"
+name = "JAX"
 version = "0.1.0"
-description = "Jax 101"
+description = ""
 authors = ["prasanthyss <prasanthyss1130@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
-jax = "^0.4.30"
+python = "^3.11"
 jupyter = "^1.0.0"
 ipykernel = "^6.29.4"
-torch = "^2.3.1"
-torchvision = "^0.18.1"
-certifi = "^2024.6.2"
 
 
 [build-system]
